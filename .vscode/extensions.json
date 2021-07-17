@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "msjsdiag.debugger-for-chrome",
+    "eamodio.gitlens",
+    "ms-ceintl.vscode-language-pack-ja",
+    "ritwickdey.liveserver",
+    "esbenp.prettier-vscode",
+    "gruntfuggly.todo-tree",
+    "shardulm94.trailing-spaces",
+    "vscode-icons-team.vscode-icons",
+    "formulahendry.auto-rename-tag"
+  ]
+}
