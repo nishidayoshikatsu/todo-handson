@@ -7,10 +7,11 @@ body {
 
 /* headerタグへのstyleを指定 */
 .header {
-  /* TODO: 背景色を#3e50b4にする */
-  background-color: black;
+  /* 背景色を#3e50b4にする */
+  background-color: #3e50b4;
   color: white;
-  /* TODO: 要素を横並びにする */
+  /* 要素を横並びにする */
+  display: flex;
   /* TODO: アイコンと文字の位置を揃える */
   /* TODO: レイアウトを調整する */
 }
@@ -20,10 +21,17 @@ body {
 }
 
 .addListButton {
-  /* TODO: ボタンを下から20px, 右から15pxで固定 */
+  /* ボタンを下から20px, 右から15pxで固定 */
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
   background-color: #3e50b4;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-  /* TODO: 縦横の大きさを64pxに変更 */
-  /* TODO: ボタンを円形にする */
-  /* TODO: 枠線を削除 */
+  /* 縦横の大きさを64pxに変更 */
+  height: 64px;
+  width: 64px;
+  /* ボタンを円形にする */
+  border-radius: 50%;
+  /* 枠線を削除 */
+  border: none;
 }
