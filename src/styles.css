@@ -42,3 +42,10 @@ body {
   /* 枠線を削除 */
   border: none;
 }
+
+/* 入力フォームを下から30px, 左から40pxで固定 */
+.inputContent {
+  position: fixed;
+  bottom: 30px;
+  left: 40px;
+}
